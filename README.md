@@ -4,7 +4,9 @@ dataset can be found at https://github.com/yao8839836/text_gcn/tree/master/data
 The code can be run with command line : python IG.py, the argument are listed below:
 
 parser = argparse.ArgumentParser(description='parameters')
+
 parser.add_argument('-f')
+
 parser.add_argument('--data_name', type=str, default="MR")
 parser.add_argument('--train_mode', type=str, default="IG_drop") # random_drop_E, random_drop, original, IG_drop
 parser.add_argument('--lr', type=float, default=0.01)
