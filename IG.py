@@ -338,7 +338,7 @@ def train_citation_data(data_name, train_mode, lr, num_epochs, pre_epochs,
 
 parser = argparse.ArgumentParser(description='parameters')
 parser.add_argument('-f')
-parser.add_argument('--data_name', type=str, default="cora")
+parser.add_argument('--data_name', type=str, default="MR")
 parser.add_argument('--train_mode', type=str, default="IG_drop") # random_drop_E, random_drop, original, IG_drop
 parser.add_argument('--lr', type=float, default=0.01)
 parser.add_argument('--num_epochs', type=int, default=500)
